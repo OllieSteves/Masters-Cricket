@@ -5,7 +5,7 @@ include("models/Exponential varying-hazard.jl")
 name = "Fake player"
 
 # Load relevant data file
-data = readdlm("Data/Fake data.txt")
+data = readdlm("Data/Fake player.txt")
 
 # Tuning parameters
 num_particles = 1000
