@@ -17,10 +17,10 @@
 int main()
 {
 	// Enter the name of the player to analyse
-	std::string name = "Adam Voges";
+	std::string name = "Fake player";
 	
 	// Get the appropriate player data
-	std::string filename = "../Data/";
+	std::string filename = "./Data/";
 	filename.append(name);
 	filename.append(".txt");
 
